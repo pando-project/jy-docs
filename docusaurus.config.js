@@ -12,36 +12,36 @@ const config = {
     },
   },
   // ?
-  title: 'RedwoodJS Docs',
+  title: 'Pando Docs',
   // ?
   tagline:
-    'Built on React, GraphQL, and Prisma, Redwood works with the components and development workflow you love, but with simple conventions and helpers to make your experience even better.',
+    'Learn Pando',
   // ?
   url: 'https://redwoodjs.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://redwoodjs.com/favicon.png',
-  organizationName: 'redwoodjs', // Usually your GitHub org/user name.
+  favicon: 'img/favicon.svg',
+  organizationName: 'Kenlabs', // Usually your GitHub org/user name.
   // ?
-  projectName: 'redwood', // Usually your repo name.,
+  projectName: 'Pando', // Usually your repo name.,
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
         appId: '37B3LHULK0',
         apiKey: '1d7f2f299d9a38c157501c301425f090',
-        indexName: 'learn-redwood',
+        indexName: 'learn-pando',
         contextualSearch: true,
         searchParameters: {},
         externalUrlRegex: 'https://learn-redwood.netlify.app',
       },
       navbar: {
-        title: 'RedwoodJS',
+        title: 'Pando',
         logo: {
-          alt: 'RedwoodJS pinecone logo',
-          src: 'https://d33wubrfki0l68.cloudfront.net/72b0d56596a981835c18946d6c4f8a968b08e694/82254/images/logo.svg',
-          href: 'https://redwoodjs.com/',
+          alt: 'Pando logo',
+          src: 'img/favicon.svg',
+          href: '#',
           target: '_self',
         },
         items: [
@@ -50,7 +50,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/redwoodjs/redwood',
+            href: 'https://github.com/pando-project',
             position: 'right',
             className: 'github-logo',
             'aria-label': 'GitHub repository',
@@ -98,7 +98,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/redwoodjs/redwood',
+                href: 'https://github.com/pando-project',
               },
             ],
           },
