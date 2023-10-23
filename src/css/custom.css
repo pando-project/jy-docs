@@ -48,7 +48,7 @@
     Docusaurus overrides
     ------------------------
   */
-  --ifm-color-primary: var(--red);
+  --ifm-color-primary: var(--green-darker);
 
   /*
     Increase the space between the sidebar and the main content.
@@ -58,7 +58,7 @@
   /*
     Links.
   */
-  --ifm-link-color: var(--teal-dark);
+  --ifm-link-color: var(--green-dark);
 
   /*
     Stop the navbar title from changing color on hover.
@@ -95,7 +95,7 @@
   Correct the color on hover and increase the font weight.
 */
 .theme-doc-breadcrumbs{
-  --ifm-link-hover-color: var(--red);
+  --ifm-link-hover-color: var(--yellow-darkest);
   font-weight: var(--ifm-font-weight-semibold)
 }
 
