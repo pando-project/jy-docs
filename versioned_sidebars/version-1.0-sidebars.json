@@ -1,6 +1,16 @@
 {
   "main": [
-    "introduction",
+    {
+      "type":"category",
+      "label": "Introduction",
+      "items":[
+        {
+          "type": "doc",
+          "label": "what is Pando?",
+          "id": "introduction/what-is-pando"
+        }
+      ]
+    },
     "quick-start",
     {
       "type": "category",
